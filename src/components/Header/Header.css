@@ -1,0 +1,45 @@
+.head{
+    color:white;
+    text-align: center;
+    background-color: skyblue;
+    height:10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem 0 2rem;
+    font-size: 19px;
+    position: static;
+}   
+
+.elements{
+    
+    display: flex;
+    gap: 1rem;
+
+}
+ .navlink{
+    text-decoration: none;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    padding:8px;
+    background-color: maroon;
+    font-size: medium;
+    
+
+ }
+ .navlink:hover{
+    cursor: pointer;
+ }
+
+ .underline{
+    border: 2px solid white  ;
+
+ }
+ .logohead:hover{
+    cursor: pointer;
+
+ }
+ .logohead{
+    height:96px ;
+    width:120px
+ }
